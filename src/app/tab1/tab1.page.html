@@ -1,17 +1,12 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab One
+      Curriculum de Ander Gonzalez
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
     <ion-card class="welcome-card">
-      <ion-img src="/assets/shapes.svg"></ion-img>
-      <ion-card-header>
-        <ion-card-subtitle>Curriculum</ion-card-subtitle>
-        <ion-card-title>Ander Gonzalez</ion-card-title>
-      </ion-card-header>
       <ion-card-content>
         <h1>Datos personales</h1>
           <label style="font-weight: bold;">Nombre y apellidos</label>&nbsp;&nbsp;Gonzalez Ameztoy, Ander<br>
@@ -27,13 +22,16 @@
     <ion-card>
       <ion-card-content>
         <ion-list lines="none">
-          <ion-item>
+          <ion-item href="formacion-academica">
+            <ion-icon slot="start" color="medium" name="book"></ion-icon>
             <ion-label>Formacion academica</ion-label>
           </ion-item>
-          <ion-item>
+          <ion-item href="experiencia-profesional">
+            <ion-icon slot="start" color="medium" name="build"></ion-icon>
             <ion-label>Experiencia profesional</ion-label>
           </ion-item>
-          <ion-item>
+          <ion-item href="idiomas">
+            <ion-icon slot="start" color="medium" name="grid"></ion-icon>
             <ion-label>Idiomas</ion-label>
           </ion-item>
         </ion-list>
